@@ -19,7 +19,6 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "build:firefox": "tsc && vite build --target firefox120 --mode firefox",
-    
     "preview": "vite preview",
     "fmt": "prettier --write '**/*.{tsx,ts,json,css,scss,md}'",
     "zip": "npm run build && node src/zip.js",
@@ -27,7 +26,7 @@
   },
   "dependencies": {
     "antd": "^4.24.15",
-    "bitbadgesjs-sdk": "^0.5.14",
+    "bitbadgesjs-sdk": "^0.9.5",
     "crypto-js": "^4.2.0",
     "react": "^18.2.0",
     "react-blockies": "^1.4.1",

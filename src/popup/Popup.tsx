@@ -96,7 +96,7 @@ export const Popup = () => {
           return { collectionId: x.collectionId, metadataToFetch: { badgeIds: x.badgeIds } }
         }),
       }).then((res) => {
-        setCollections(res.collections)
+        setCollections(res.collections.filter((x) => x !== undefined))
       })
     })
 
